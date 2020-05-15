@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Data collection
+	</title>
+	<style>
+
+		form{max-width: 400px; background-color: rgb(233, 207, 173); padding: 15px; border-radius: 5px; 
+			box-shadow: 0px 0px 8px rgb(98, 132, 243);}
+		input{border-radius: 5px; color: darkblue;text-align: center;  }
+		hr{max-width: 425px;}	
+		textarea{ border-radius: 5px;}	
+		h1{max-width: 450px; text-shadow: 0px 0px 5px gray;}	
+		
+
+
+	</style>
+</head>
+<body>
+	<center>
+		<h1>Retailer & Distributor Id Form</h1>
+		
+	</center>
+	<hr>
+	<center><form action="data.php">
+		<table>
+		
+			<tr>
+				<td> First Name </td>
+				<td> <input type=textbox name="first_name" placeholder="first name" </td>
+			</tr>
+			<tr>
+				<td> Second Name</td>
+				<td> <input type=text name="second_name"placeholder="second name">
+			</tr>
+			<tr>
+				<td> Last Name </td>
+				<td> <input type=text name="last_name" placeholder="last name"> </td>
+			</tr>
+			<tr>
+				<td> Gender </td>
+				<td> Male<input type=radio name=g> Female<input type="radio" name=g> </td>
+			</tr>
+			<tr>
+				<td> Date of birth </td>
+				<td> <input type=date name="dob"> </td>
+			</tr>
+			<tr>
+				<td>
+					Mobile Number  
+				</td>
+				<td> 
+					<select>
+						<option>91</option>
+						<option>01</option>
+					</select>
+					<input type=number name="mobile number" placeholder="10 digit"> 
+				</td>
+			</tr>
+			<tr>
+				<td> Address </td>
+				<td><textarea name="address"> </textarea> </td>
+			</tr>
+			<tr>
+				<td> State </td>
+				<td><input type=text name="state">  </td>
+			</tr>
+			<tr>
+				<td> Pin code </td>
+				<td><input type=number name="pincode">  </td>
+			</tr>
+			<tr>
+				<td> Email id </td>
+				<td> <input type=email name="email"> </td>
+			</tr>
+			<tr>
+				<td> Aadhar Number </td>
+				<td> <input type=number name="aadhar_number"> </td>
+			</tr>
+			<tr>
+				<td>PAN Number  </td>
+				<td><input type=text name="pan_number">  </td>
+			</tr>
+			<tr>
+				<td> Id type </td>
+				<td> 
+					<select name="idtype">
+						<option>Distributor</option>
+						<option>Retailer</option>
+						
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td colspan=2> <input type=submit name="submit"> <input type=reset name="reset"></td>
+			</tr>
+				
+			</table>
+			
+	</form></center>
+</body>
+</html>
